@@ -1,6 +1,7 @@
 ## Terraform Project
 Terraform is designed to help you manage your infrastructure as code. It is an open-source tool for building, changing, and versioning infrastructure safely and efficiently.
-This is a project from Altschool Africa to automate the creation of infrastructure on AWS cloud using terraform and ansible. This project solves the following questions;
+Aim is to automate the creation of infrastructure on AWS cloud using terraform and ansible. This project solves the following questions;
+- create vpc, subnets
 - Create three EC2 instances, and put them behind an Elastic Load Balancer
 - Upon application of terraform plan, terraform should export the public IP addresses of the three instances to a file called host-inventory
 - Maps a custom domain name to AWS route53 within terraform plan
